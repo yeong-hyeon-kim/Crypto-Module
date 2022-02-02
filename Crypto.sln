@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoModule", "CryptoModule\CryptoModule.csproj", "{A0C72207-0109-467B-B69F-6F82A8F21C79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTest", "CryptoTest\CryptoTest.csproj", "{7128DCB4-61D6-43DD-BA04-74A0D359B9E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C72207-0109-467B-B69F-6F82A8F21C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C72207-0109-467B-B69F-6F82A8F21C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C72207-0109-467B-B69F-6F82A8F21C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C72207-0109-467B-B69F-6F82A8F21C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7128DCB4-61D6-43DD-BA04-74A0D359B9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7128DCB4-61D6-43DD-BA04-74A0D359B9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7128DCB4-61D6-43DD-BA04-74A0D359B9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7128DCB4-61D6-43DD-BA04-74A0D359B9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4F828D-D314-4279-9A9D-5F9D32C3D1AC}
+	EndGlobalSection
+EndGlobal
