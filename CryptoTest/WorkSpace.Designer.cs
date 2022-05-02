@@ -75,7 +75,7 @@ namespace CryptoTest
             // 
             // BtnRsaEncrypt
             // 
-            this.BtnRsaEncrypt.Location = new System.Drawing.Point(936, 103);
+            this.BtnRsaEncrypt.Location = new System.Drawing.Point(936, 115);
             this.BtnRsaEncrypt.Name = "BtnRsaEncrypt";
             this.BtnRsaEncrypt.Size = new System.Drawing.Size(158, 39);
             this.BtnRsaEncrypt.TabIndex = 0;
@@ -127,7 +127,7 @@ namespace CryptoTest
             // lblDecryptString
             // 
             this.lblDecryptString.AutoSize = true;
-            this.lblDecryptString.Location = new System.Drawing.Point(32, 490);
+            this.lblDecryptString.Location = new System.Drawing.Point(35, 480);
             this.lblDecryptString.Name = "lblDecryptString";
             this.lblDecryptString.Size = new System.Drawing.Size(106, 20);
             this.lblDecryptString.TabIndex = 7;
@@ -135,7 +135,7 @@ namespace CryptoTest
             // 
             // textDecryptString
             // 
-            this.textDecryptString.Location = new System.Drawing.Point(37, 526);
+            this.textDecryptString.Location = new System.Drawing.Point(37, 513);
             this.textDecryptString.Multiline = true;
             this.textDecryptString.Name = "textDecryptString";
             this.textDecryptString.Size = new System.Drawing.Size(864, 110);
@@ -212,7 +212,7 @@ namespace CryptoTest
             // 
             // btnRsaDecrypt
             // 
-            this.btnRsaDecrypt.Location = new System.Drawing.Point(936, 172);
+            this.btnRsaDecrypt.Location = new System.Drawing.Point(936, 190);
             this.btnRsaDecrypt.Name = "btnRsaDecrypt";
             this.btnRsaDecrypt.Size = new System.Drawing.Size(158, 39);
             this.btnRsaDecrypt.TabIndex = 12;
@@ -266,19 +266,19 @@ namespace CryptoTest
             // 
             this.textPlainTextPath.Location = new System.Drawing.Point(32, 194);
             this.textPlainTextPath.Name = "textPlainTextPath";
-            this.textPlainTextPath.Size = new System.Drawing.Size(887, 28);
+            this.textPlainTextPath.Size = new System.Drawing.Size(940, 28);
             this.textPlainTextPath.TabIndex = 11;
             // 
             // textEncrypatedTextPath
             // 
             this.textEncrypatedTextPath.Location = new System.Drawing.Point(29, 412);
             this.textEncrypatedTextPath.Name = "textEncrypatedTextPath";
-            this.textEncrypatedTextPath.Size = new System.Drawing.Size(890, 28);
+            this.textEncrypatedTextPath.Size = new System.Drawing.Size(943, 28);
             this.textEncrypatedTextPath.TabIndex = 10;
             // 
             // btnAesDecrypt
             // 
-            this.btnAesDecrypt.Location = new System.Drawing.Point(974, 65);
+            this.btnAesDecrypt.Location = new System.Drawing.Point(988, 65);
             this.btnAesDecrypt.Name = "btnAesDecrypt";
             this.btnAesDecrypt.Size = new System.Drawing.Size(116, 37);
             this.btnAesDecrypt.TabIndex = 9;
@@ -288,7 +288,7 @@ namespace CryptoTest
             // 
             // btnAesEncrypt
             // 
-            this.btnAesEncrypt.Location = new System.Drawing.Point(974, 11);
+            this.btnAesEncrypt.Location = new System.Drawing.Point(988, 16);
             this.btnAesEncrypt.Name = "btnAesEncrypt";
             this.btnAesEncrypt.Size = new System.Drawing.Size(116, 36);
             this.btnAesEncrypt.TabIndex = 8;
@@ -301,7 +301,7 @@ namespace CryptoTest
             this.textDecrypted.Location = new System.Drawing.Point(29, 519);
             this.textDecrypted.Multiline = true;
             this.textDecrypted.Name = "textDecrypted";
-            this.textDecrypted.Size = new System.Drawing.Size(890, 112);
+            this.textDecrypted.Size = new System.Drawing.Size(943, 112);
             this.textDecrypted.TabIndex = 7;
             // 
             // label1
@@ -318,7 +318,7 @@ namespace CryptoTest
             this.textEncrypted.Location = new System.Drawing.Point(29, 285);
             this.textEncrypted.Multiline = true;
             this.textEncrypted.Name = "textEncrypted";
-            this.textEncrypted.Size = new System.Drawing.Size(890, 76);
+            this.textEncrypted.Size = new System.Drawing.Size(943, 76);
             this.textEncrypted.TabIndex = 5;
             // 
             // lblEncryptedText
@@ -344,7 +344,7 @@ namespace CryptoTest
             this.textPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textPassword.Location = new System.Drawing.Point(606, 16);
             this.textPassword.Name = "textPassword";
-            this.textPassword.Size = new System.Drawing.Size(313, 36);
+            this.textPassword.Size = new System.Drawing.Size(366, 36);
             this.textPassword.TabIndex = 2;
             // 
             // lblPlainText
@@ -358,10 +358,10 @@ namespace CryptoTest
             // 
             // textPlainText
             // 
-            this.textPlainText.Location = new System.Drawing.Point(30, 65);
+            this.textPlainText.Location = new System.Drawing.Point(32, 65);
             this.textPlainText.Multiline = true;
             this.textPlainText.Name = "textPlainText";
-            this.textPlainText.Size = new System.Drawing.Size(889, 79);
+            this.textPlainText.Size = new System.Drawing.Size(940, 79);
             this.textPlainText.TabIndex = 0;
             // 
             // tpHASH
@@ -457,6 +457,8 @@ namespace CryptoTest
             this.ClientSize = new System.Drawing.Size(1185, 731);
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1203, 778);
+            this.MinimumSize = new System.Drawing.Size(1203, 778);
             this.Name = "WorkSpace";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Work";
