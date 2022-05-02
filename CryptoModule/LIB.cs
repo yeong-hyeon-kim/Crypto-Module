@@ -1,16 +1,16 @@
 ﻿using System;
 using System.IO;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace CryptoModule
 {
     public class LIB : AES
     {
-        public void EncryptLog(string PlainText, string Password, string LogTitle = "Log")
+        public string EncryptLog(string PlainText, string Password, string LogTitle = "Log")
         {
             string EncryptedData = AESEncrypt256(PlainText, Password) + Convert.ToChar(10);
             ExportLog(LogTitle, EncryptedData);
+
+            return EncryptedData;
         }
 
         public string DecryptLog(string EncryptedText, string Password)

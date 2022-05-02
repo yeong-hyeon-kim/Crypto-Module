@@ -16,18 +16,21 @@ namespace CryptoTest
         {
             RSA cry = new RSA();
             cry.CreateCryptoObject();
+
+            textPublicKeyPath.Text = $"{Path.Combine(Environment.CurrentDirectory)}{@"\"}PUblicKey.xml";
+            textPrivateKeyPath.Text = $"{Path.Combine(Environment.CurrentDirectory)}{@"\"}PrivateKey.xml";
         }
 
         private void BtnRsaEncrypt_Click(object sender, EventArgs e)
         {
             RSA cry = new RSA();
-            textBase64.Text = cry.RSAEncrypt(textEncryptString.Text, File.ReadAllText(textPublic.Text));
+            textBase64.Text = cry.RSAEncrypt(textEncryptString.Text, File.ReadAllText(textPublicKeyPath.Text));
         }
 
         private void btnRsaDecrypt_Click(object sender, EventArgs e)
         {
             RSA cry = new RSA();
-            textDecryptString.Text = cry.RSADecrypt(textBase64.Text, File.ReadAllText(textPrivate.Text));
+            textDecryptString.Text = cry.RSADecrypt(textBase64.Text, File.ReadAllText(textPrivateKeyPath.Text));
         }
 
         private void btnAesEncrypt_Click(object sender, EventArgs e)
@@ -36,7 +39,7 @@ namespace CryptoTest
 
             if (!string.IsNullOrEmpty(textPlainText.Text))
             {
-                cry.EncryptLog(textPlainText.Text, textPassword.Text);
+                textEncrypted.Text = cry.EncryptLog(textPlainText.Text, textPassword.Text);
             }
             else
             {
@@ -47,7 +50,7 @@ namespace CryptoTest
         private void btnAesDecrypt_Click(object sender, EventArgs e)
         {
             AES cry = new AES();
-            //textDecrypted.Text = cry.AESDecrypt256(textEncrypted.Text, textPassword.Text);
+
             if (!string.IsNullOrEmpty(textEncrypatedTextPath.Text))
             {
                 textDecrypted.Text = LogDecrypto(File.ReadAllText(textEncrypatedTextPath.Text));
