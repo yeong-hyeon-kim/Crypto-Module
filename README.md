@@ -38,14 +38,3 @@
 * ✔ Language : ![C#](https://img.shields.io/badge/CSharp-239120?style=flat-square&logo=C-Sharp&logoColor=white)
 * ✔ Dependency : ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=.NET&logoColor=white)
   * 🕒 Version : `5.0`
-
-### 세부 환경(Environment Detail)
-
-* ✔ OS : `Any OS`
-  * 🕒 Version : `Any Version`
-* ✔ Language : `Any Language`
-  * 🕒 Version : `Any Version`
-* ✔ Framework : `Any Framework`
-* ✔ Dependency : `Dependency`
-
-## 📖 비고(Remark)
